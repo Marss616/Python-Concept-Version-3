@@ -81,3 +81,5 @@ class FrontEndUI:
                 sys.stdout.write(message)
                 user_input = int(sys.stdin.readline())
                 # The reason I went with this method for the user to add muilt values to the .csv file is so that it can be upscaled if required, next best thing would to take one input and split the value up and then add it to the .csv file 
+
+FrontEndUI.show_ui(self=0)
